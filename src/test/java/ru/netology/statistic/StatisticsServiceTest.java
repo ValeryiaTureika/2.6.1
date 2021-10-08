@@ -17,6 +17,7 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxMax() {
         StatisticsService service = new StatisticsService();
@@ -28,6 +29,7 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMix() {
         StatisticsService service = new StatisticsService();
@@ -39,11 +41,12 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMin() {
         StatisticsService service = new StatisticsService();
 
-        long[] incomesInBillions = {0,2};
+        long[] incomesInBillions = {0, 2};
         long expected = 2;
 
         long actual = service.findMax(incomesInBillions);

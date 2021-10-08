@@ -51,9 +51,9 @@
                         </goals>
                     </execution>
                     <execution>
-                    <goals>
-                        <goal>report</goal>
-                    </goals>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
                     </execution>
                 </executions>
                 <configuration>
